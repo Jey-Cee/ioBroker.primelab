@@ -1,8 +1,19 @@
 {
     "common": {
         "name": "primelab",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "news": {
+            "1.0.1":{
+                "en": "public version",
+                "de": "öffentliche Version",
+                "ru": "публичная версия",
+                "pt": "versão pública",
+                "nl": "openbare versie",
+                "fr": "version publique",
+                "it": "versione pubblica",
+                "es": "versión pública",
+                "pl": "wersja publiczna"
+            },
             "1.0.0":{
                 "en": "Stable version",
                 "de": "stabile Version",
@@ -57,14 +68,14 @@
         "schedule": "* */12 * * *",
         "icon": "primelab.png",
         "materialize": true,
-        "extIcon": "https://primelab.cloud/assets/img/primelab-logo.png",
+        "extIcon": "https://github.com/Jey-Cee/iobroker.primelab/blob/master/admin/primelab.png",
         "allowInit": true,
         "keywords": [
             "PrimeLab",
             "PoolLab",
             "Photometer"
         ],
-        "readme": "/README.md",
+        "readme": "https://github.com/Jey-Cee/iobroker.primelab/blob/master/README.md",
         "loglevel": "info",
         "type": "misc-data",
         "license": "CC-BY-NC",

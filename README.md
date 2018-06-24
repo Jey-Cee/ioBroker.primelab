@@ -2,9 +2,33 @@
 # ioBroker.primelab
 =================
 
+
+### German:
+Dieser Adapter wurde von Jey Cee im Auftrag von Jan Peters entwickelt. Spenden sind Willkommen.
 Der PrimeLab Adapter ermöglicht das Automatische abrufen von Messwerten, die auf der Seite https://primelab.cloud im Benutzerkonto hinterlegt sind.
 
+Messwerte:
+    -  431-Cyanuric-Acid
+    -  421-Chlorine-Total
+    -  428-Chlorine-Free
+    -  429-pH-PoolLab
+
+### English:
+This adapter was developed by Jey Cee on behalf of Jan Peters. Donations are welcome.
+The PrimeLab adapter enables the automatic retrieval of measured values stored in the user account on the https://primelab.cloud page.
+
+Readings:
+    -  431-Cyanuric-Acid
+    -  421-Chlorine-Total
+    -  428-Chlorine-Free
+    -  429-pH-PoolLab
+
+
+
 ## Changelog
+
+### 1.0.1
+* (Jey Cee) public version
 
 ### 1.0.0
 * (Jey Cee) stable version
