@@ -1,4 +1,4 @@
-![Logo](admin/primelab.png)
+![Logo](https://primelab.org/de/assets/website/img/logo-primelab.jpg)
 # ioBroker.primelab
 =================
 
