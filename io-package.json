@@ -1,0 +1,79 @@
+{
+    "common": {
+        "name": "primelab",
+        "version": "1.0.0",
+        "news": {
+            "1.0.0":{
+                "en": "Stable version",
+                "de": "stabile Version",
+                "ru": "Стабильная версия",
+                "pt": "Versão estável",
+                "nl": "Stabiele versie",
+                "fr": "version stable",
+                "it": "Versione stabile",
+                "es": "versión estable",
+                "pl": "Wersja stabilna"
+            },
+            "0.0.1": {
+                "en": "initial version created with Adapter-Studio by Jey Cee",
+                "de": "erste Version erstellt mit Adapter-Studio von Jey Cee",
+                "ru": "начальная версия, созданная с помощью Adapter-Studio by Jey Cee",
+                "pt": "versão inicial criada com o Adapter-Studio por Jey Cee",
+                "nl": "eerste versie gemaakt met Adapter-Studio door Jey Cee",
+                "fr": "Version initiale créée avec Adapter-Studio par Jey Cee",
+                "it": "versione iniziale creata con Adapter-Studio di Jey Cee",
+                "es": "versión inicial creada con Adapter-Studio por Jey Cee",
+                "pl": "początkowa wersja stworzona za pomocą Adapter-Studio przez Jey Cee"
+            }
+        },
+        "title": "PrimeLab",
+        "titleLang": {
+            "en": "PrimeLab",
+            "de": "PrimeLab",
+            "ru": "PrimeLab",
+            "pt": "PrimeLab",
+            "nl": "PrimeLab",
+            "fr": "PrimeLab",
+            "it": "PrimeLab",
+            "es": "PrimeLab"
+        },
+        "desc": {
+            "en": "PrimeLab",
+            "de": "PrimeLab",
+            "ru": "PrimeLab",
+            "pt": "PrimeLab",
+            "fr": "PrimeLab",
+            "nl": "PrimeLab",
+            "it": "PrimeLab",
+            "es": "PrimeLab"
+        },
+        "authors": [
+            "Jey Cee <jey-cee@live.com>"
+        ],
+        "docs": {
+        },
+        "platform": "Javascript/Node.js",
+        "mode": "schedule",
+        "schedule": "* */12 * * *",
+        "icon": "primelab.png",
+        "materialize": true,
+        "extIcon": "https://primelab.cloud/assets/img/primelab-logo.png",
+        "allowInit": true,
+        "keywords": [
+            "PrimeLab",
+            "PoolLab",
+            "Photometer"
+        ],
+        "readme": "/README.md",
+        "loglevel": "info",
+        "type": "misc-data",
+        "license": "CC-BY-NC",
+        "messagebox": false
+    },
+    "native": {
+        "user": "",
+        "password": ""
+        
+    },
+    "objects": []
+}
