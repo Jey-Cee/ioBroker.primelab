@@ -355,3 +355,5 @@ function getData(cookie, accountLink){
         }
     })
 }
+
+adapter.stop();
