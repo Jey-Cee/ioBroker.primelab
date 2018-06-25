@@ -117,7 +117,7 @@ function getAccountID(cookie, callback){
     })
 }
 
-function getData(cookie, accountLink, callback){
+function getData(cookie, accountLink){
     adapter.log.debug('Account Link: ' + accountLink);
     cookie = cookie.toString().split(";");
     adapter.log.debug('Get Data Cookie: ' + cookie[0]);
