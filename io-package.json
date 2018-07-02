@@ -1,8 +1,19 @@
 {
     "common": {
         "name": "primelab",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "news": {
+            "1.0.2":{
+                "en": "fix Adapter stop",
+                "de": "fehler bei Adapter stop behoben",
+                "ru": "исправить остановку адаптера",
+                "pt": "consertar a parada do adaptador",
+                "nl": "fix Adapter stop",
+                "fr": "fixer l'arrêt de l'adaptateur",
+                "it": "fix Adattatore stop",
+                "es": "arreglar la parada del adaptador",
+                "pl": "Napraw przystawkę adaptera"
+            },
             "1.0.1":{
                 "en": "public version",
                 "de": "öffentliche Version",
