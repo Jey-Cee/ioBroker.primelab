@@ -27,6 +27,9 @@ Readings:
 
 ## Changelog
 
+### 1.0.2
+* (Jey Cee) fix Adapter stop
+
 ### 1.0.1
 * (Jey Cee) public version
 
