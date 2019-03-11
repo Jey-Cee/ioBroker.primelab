@@ -1,43 +1,48 @@
 {
-    "name": "iobroker.primelab",
-    "version": "1.0.2",
-    "description": "primelab",
-    "author": {
-        "name": "Jey Cee",
-        "email": "jey-cee@live.com"
-    },
-    "contributors": [
-        {
-            "name": "Jey Cee",
-            "email": "jey-cee@live.com"
-        }
-    ],
-    "homepage": "https://github.com/Jey-Cee/iobroker.primelab",
-    "license": "CC-BY-NC",
-    "keywords": [
-        "PrimeLab",
-        "PoolLab",
-        "Photometer"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Jey-Cee/iobroker.primelab"
-    },
-    "dependencies": {
-        "jsdom": "^11.11.0"
-    },
-    "devDependencies": {
-        "gulp": "^3.9.1",
-        "mocha": "^4.1.0",
-        "chai": "^4.1.2"
-    },
-    "main": "main.js",
-    "scripts": {
-        "gulp": "gulp",
-        "test": "node node_modules/mocha/bin/mocha --exit"
-    },
-    "bugs": {
-        "url": "https://github.com/Jey-Cee/iobroker.primelab/issues"
-    },
-    "readmeFilename": "README.md"
+  "name": "iobroker.primelab",
+  "version": "1.0.2",
+  "description": "primelab",
+  "author": {
+    "name": "Jey Cee",
+    "email": "jey-cee@live.com"
+  },
+  "contributors": [
+    {
+      "name": "Jey Cee",
+      "email": "jey-cee@live.com"
+    }
+  ],
+  "homepage": "https://github.com/Jey-Cee/iobroker.primelab",
+  "license": "CC-BY-NC",
+  "keywords": [
+    "PrimeLab",
+    "PoolLab",
+    "Photometer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jey-Cee/iobroker.primelab"
+  },
+  "dependencies": {
+    "jsdom": "^11.11.0",
+    "@iobroker/adapter-core": "^1.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^4.1.0",
+    "chai": "^4.1.2",
+    "@iobroker/testing": "^1.1.10"
+  },
+  "main": "main.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "npm run test:package && npm run test:unit",
+    "test:package": "mocha test/package --exit",
+    "test:unit": "mocha test/unit --exit",
+    "test:integration": "mocha test/integration --exit"
+  },
+  "bugs": {
+    "url": "https://github.com/Jey-Cee/iobroker.primelab/issues"
+  },
+  "readmeFilename": "README.md"
 }

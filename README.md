@@ -1,6 +1,6 @@
 ![Logo](https://primelab.org/de/assets/website/img/logo-primelab.jpg)
 # ioBroker.primelab
-=================
+![Number of Installations](http://iobroker.live/badges/primelab-installed.svg) ![Number of Installations](http://iobroker.live/badges/primelab-stable.svg) =================
 
 
 ### German:
