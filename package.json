@@ -12,7 +12,7 @@
       "email": "jey-cee@live.com"
     }
   ],
-  "homepage": "https://github.com/Jey-Cee/iobroker.primelab",
+  "homepage": "https://github.com/Jey-Cee/ioBroker.primelab",
   "license": "CC-BY-NC-4.0",
   "keywords": [
     "PrimeLab",
@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jey-Cee/iobroker.primelab"
+    "url": "git+https://github.com/Jey-Cee/ioBroker.primelab.git"
   },
   "dependencies": {
     "jsdom": "^11.11.0",
@@ -42,7 +42,7 @@
     "test:integration": "mocha test/integration --exit"
   },
   "bugs": {
-    "url": "https://github.com/Jey-Cee/iobroker.primelab/issues"
+    "url": "https://github.com/Jey-Cee/ioBroker.primelab/issues"
   },
   "readmeFilename": "README.md"
 }
