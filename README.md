@@ -1,7 +1,10 @@
+
+---
+lastChanged: 2019.03.27
+---
 ![Logo](https://primelab.org/de/assets/website/img/logo-primelab.jpg)
 # ioBroker.primelab
-![Number of Installations](http://iobroker.live/badges/primelab-installed.svg) ![Number of Installations](http://iobroker.live/badges/primelab-stable.svg) =================
-
+![Number of Installations](http://iobroker.live/badges/primelab-installed.svg) ![Number of Installations](http://iobroker.live/badges/primelab-stable.svg)
 
 ### German:
 Dieser Adapter wurde von Jey Cee im Auftrag von Jan Peters entwickelt. Spenden sind Willkommen.
@@ -23,10 +26,7 @@ Readings:
     -  428-Chlorine-Free
     -  429-pH-PoolLab
 
-
-
 ## Changelog
-
 ### 1.0.2
 * (Jey Cee) fix Adapter stop
 
