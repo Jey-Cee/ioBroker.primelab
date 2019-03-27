@@ -79,7 +79,7 @@
         "schedule": "* */12 * * *",
         "icon": "primelab.png",
         "materialize": true,
-        "extIcon": "https://github.com/Jey-Cee/iobroker.primelab/blob/master/admin/primelab.png",
+        "extIcon": "https://raw.githubusercontent.com/Jey-Cee/iobroker.primelab/master/admin/primelab.png",
         "allowInit": true,
         "keywords": [
             "PrimeLab",
