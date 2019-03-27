@@ -89,7 +89,7 @@
         "readme": "https://github.com/Jey-Cee/iobroker.primelab/blob/master/README.md",
         "loglevel": "info",
         "type": "misc-data",
-        "license": "CC-BY-NC",
+        "license": "CC-BY-NC-4.0",
         "messagebox": false
     },
     "native": {
