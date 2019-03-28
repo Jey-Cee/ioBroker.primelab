@@ -79,14 +79,14 @@
         "schedule": "* */12 * * *",
         "icon": "primelab.png",
         "materialize": true,
-        "extIcon": "https://raw.githubusercontent.com/Jey-Cee/iobroker.primelab/master/admin/primelab.png",
+        "extIcon": "https://raw.githubusercontent.com/Jey-Cee/ioBroker.primelab/master/admin/primelab.png",
         "allowInit": true,
         "keywords": [
             "PrimeLab",
             "PoolLab",
             "Photometer"
         ],
-        "readme": "https://github.com/Jey-Cee/iobroker.primelab/blob/master/README.md",
+        "readme": "https://github.com/Jey-Cee/ioBroker.primelab/blob/master/README.md",
         "loglevel": "info",
         "type": "misc-data",
         "license": "CC-BY-NC-4.0",
