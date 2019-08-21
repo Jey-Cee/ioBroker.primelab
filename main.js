@@ -165,6 +165,7 @@ function getData(cookie, accountLink){
         let chlorineT = false;
         let chlorineF = false;
         let ph = false;
+        let alkalinity = false;
 
 
         for(let i = 0; i < nrOfData; i++) {
@@ -349,6 +350,44 @@ function getData(cookie, accountLink){
                         adapter.setState(`${sn}.${id}.timestamp`, ts, true);
 
                         ph = true;
+                    }
+                    break;
+                case '430-Alkalinity-Total':
+                    if(!alkalinity){
+                        adapter.setObjectNotExists(`${sn}.${id}`, {
+                            type: 'channel',
+                            common: {
+                                name: parameter,
+                                read: true,
+                                write: false
+                            }
+                        });
+                        adapter.setObjectNotExists(`${sn}.${id}.measurement`, {
+                            type: 'state',
+                            common: {
+                                name: 'Measurement of Alkalinity-Total',
+                                role: 'value',
+                                type: 'number',
+                                unit: unit,
+                                read: true,
+                                write: false
+                            }
+                        });
+                        adapter.setObjectNotExists(`${sn}.${id}.timestamp`, {
+                            type: 'state',
+                            common: {
+                                name: 'Timestamp for  Alkalinity-Total',
+                                role: 'indicator.timestamp',
+                                type: 'number',
+                                read: true,
+                                write: false
+                            }
+                        });
+
+                        adapter.setState(`${sn}.${id}.measurement`, measurement, true);
+                        adapter.setState(`${sn}.${id}.timestamp`, ts, true);
+
+                        alkalinity = true;
                     }
                     break;
             }
